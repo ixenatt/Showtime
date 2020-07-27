@@ -73,7 +73,7 @@ let win = new Gtk.Window();
         win.textbottomright.get_style_context().add_class("time-text-bottomright");
 
         let css = new Gtk.CssProvider();
-        css.load_from_path(path + '/assets/stylesheet.css');
+        css.load_from_path(path + '/stylesheet.css');
 
         win.timegrid.get_style_context().add_provider(css, 0);
         win.texttopleft.get_style_context().add_provider(css, 0);
